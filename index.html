@@ -23,7 +23,16 @@
         <a href="https://www.linkedin.com/in/nino-gogoberidze-3424961a4/" target="_blank" class="contact-btn">Connect on LinkedIn</a>
 
         <div class="status">
-            Project under construction • Coming soon
+        <div class="calculator-box">
+    <h4 style="color: #1a2a6c; margin-top: 0;">Loan Calculator</h4>
+    <input type="number" id="amount" placeholder="Loan Amount ($)" style="width: 80%; padding: 8px; margin: 5px; border: 1px solid #ddd; border-radius: 5px;">
+    <input type="number" id="interest" placeholder="Interest Rate (%)" style="width: 80%; padding: 8px; margin: 5px; border: 1px solid #ddd; border-radius: 5px;">
+    <input type="number" id="years" placeholder="Years" style="width: 80%; padding: 8px; margin: 5px; border: 1px solid #ddd; border-radius: 5px;">
+    <button onclick="calculateLoan()" style="width: 85%; padding: 10px; background-color: #1a2a6c; color: white; border: none; border-radius: 5px; cursor: pointer; margin-top: 10px;">Calculate</button>
+    <div id="result" style="margin-top: 15px; font-weight: bold; color: #1a2a6c;">
+        Monthly Payment: <span id="payment">$0.00</span>
+    </div>
+</div>
         </div>
     </div>
 
