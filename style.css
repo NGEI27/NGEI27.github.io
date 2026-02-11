@@ -48,3 +48,60 @@ p { color: #666; line-height: 1.6; font-size: 15px; }
     transition: background 0.3s;
 }
 .contact-btn:hover { background-color: #005582; }
+/* კალკულატორის კონტეინერი */
+.calculator-box {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    border: 1px solid #e1e4e8;
+}
+
+.calculator-box h4 {
+    margin-bottom: 15px;
+    color: #1a2a6c;
+}
+
+/* ინპუტების (ველების) სტილი */
+.calculator-box input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccd1d9;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box; /* რომ პედინგმა ზომა არ გაზარდოს */
+}
+
+/* ღილაკის სტილი */
+.calculator-box button {
+    width: 100%;
+    max-width: 280px;
+    padding: 12px;
+    background-color: #1a2a6c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+
+.calculator-box button:hover {
+    background-color: #2a3a7c;
+}
+
+/* შედეგის სტილი */
+#result {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px dashed #ccd1d9;
+    font-size: 16px;
+}
+
+#payment {
+    color: #28a745; /* მწვანე ფერი შედეგისთვის */
+    font-size: 20px;
+}
